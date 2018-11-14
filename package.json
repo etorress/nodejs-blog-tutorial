@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-blog-tutorial",
+  "version": "1.0.0",
+  "description": "(create a blog using Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etorress/nodejs-blog-tutorial.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Eduardo Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etorress/nodejs-blog-tutorial/issues"
+  },
+  "homepage": "https://github.com/etorress/nodejs-blog-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "startbootstrap-clean-blog": "^5.0.1"
+  },
+  "devDependencies": {}
+}
