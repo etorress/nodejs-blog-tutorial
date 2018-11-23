@@ -9,7 +9,7 @@ app.use(expressEdge);
 
 app.set('views', __dirname + '/views');
 
-app.get('/public', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index');
 });
 
