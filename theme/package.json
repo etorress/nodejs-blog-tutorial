@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/startbootstrap-clean-blog/-/startbootstrap-clean-blog-5.0.1.tgz",
   "_shasum": "0f12dcefe63429fac33448a4df7926da02ebc034",
   "_spec": "startbootstrap-clean-blog@^5.0.1",
-  "_where": "/home/etorres/Documents/node/nodejs-blog-tutorial",
+  "_where": "/opt/lampp/htdocs/node/nodejs-blog-tutorial",
   "author": {
     "name": "Start Bootstrap"
   },
