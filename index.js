@@ -12,6 +12,9 @@ const homePageController = require('./controllers/homePage')
 const storePostController = require('./controllers/storePost')
 const getPostController = require('./controllers/getPost')
 
+const loginController = require ("./controllers/login");
+const loginUserController = require (".controllers/loginUser");
+
 const app = new express();
 
 mongoose.connect('mongodb://localhost:27017/node-blog', {useNewUrlParser: true})
@@ -39,6 +42,8 @@ app.get("/", homePageController);
 app.get("/post/:id", getPostController);
 app.get("/posts/new", createPostController);
 app.post("/posts/store", storePostController);
+app.get('/auth/login', loginController);
+app.get('/auth/loginUserController', loginUserController);
 
 app.get('/', async(req, res)=>{
     const posts = await Post.find({})
