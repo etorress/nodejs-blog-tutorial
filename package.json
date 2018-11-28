@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/etorress/nodejs-blog-tutorial#readme",
   "dependencies": {
+    "bcrypt": "*",
     "body-parser": "^1.18.3",
     "connect": "^3.6.6",
     "express": "^4.16.4",
