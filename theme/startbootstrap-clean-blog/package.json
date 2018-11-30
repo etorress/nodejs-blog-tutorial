@@ -1,0 +1,77 @@
+{
+  "_from": "startbootstrap-clean-blog@^5.0.1",
+  "_id": "startbootstrap-clean-blog@5.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-PGbXD5nWY5Qm7fCuJONrcBnk1pg/pF7UZm0T6jNlOaMS73EMsD9T15Xwp7s1VLfyHfLe2MFeqJLh+aodJYfRjA==",
+  "_location": "/startbootstrap-clean-blog",
+  "_phantomChildren": {},
+  "_requested": {
+    "escapedName": "startbootstrap-clean-blog",
+    "fetchSpec": "^5.0.1",
+    "name": "startbootstrap-clean-blog",
+    "raw": "startbootstrap-clean-blog@^5.0.1",
+    "rawSpec": "^5.0.1",
+    "registry": true,
+    "saveSpec": null,
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/startbootstrap-clean-blog/-/startbootstrap-clean-blog-5.0.1.tgz",
+  "_shasum": "0f12dcefe63429fac33448a4df7926da02ebc034",
+  "_spec": "startbootstrap-clean-blog@^5.0.1",
+  "_where": "/opt/lampp/htdocs/node/nodejs-blog-tutorial",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "bugs": {
+    "email": "feedback@startbootstrap.com",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "David Miller",
+      "url": "http://davidmiller.io/"
+    }
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.3.1",
+    "bootstrap": "4.1.3",
+    "jquery": "3.3.1"
+  },
+  "deprecated": false,
+  "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+  "devDependencies": {
+    "browser-sync": "2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "3.10.0",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.1"
+  },
+  "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
+  "keywords": [
+    "css",
+    "html",
+    "responsive",
+    "sass",
+    "template",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "startbootstrap-clean-blog",
+  "optionalDependencies": {},
+  "readme": "# [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)\n\n[Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.\n\n## Preview\n\n[![Clean Blog Preview](https://startbootstrap.com/assets/img/templates/clean-blog.jpg)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)\n\n**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-clean-blog/)**\n\n## Status\n\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-clean-blog/master/LICENSE)\n[![npm version](https://img.shields.io/npm/v/startbootstrap-clean-blog.svg)](https://www.npmjs.com/package/startbootstrap-clean-blog)\n[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog)\n[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog)\n[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog?type=dev)\n\n## Download and Installation\n\nTo begin using this template, choose one of the following options to get started:\n* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/clean-blog/)\n* Install via npm: `npm i startbootstrap-clean-blog`\n* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-clean-blog.git`\n* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-clean-blog)\n\n## Usage\n\n### Basic Usage\n\nAfter downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.\n\n### Advanced Usage\n\nAfter installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.\n\n#### Gulp Tasks\n\n- `gulp` the default task that builds everything\n- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made\n- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS\n- `gulp js` minifies the themes JS file\n- `gulp vendor` copies dependencies from node_modules to the vendor directory\n\nYou must have npm and Gulp installed globally on your machine in order to use these features.\n\n## Troubleshooting and Help\n\nStart Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.\n\n**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**\n\n## Bugs and Issues\n\nHave a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/).\n\n## About\n\nStart Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.\n\n* https://startbootstrap.com\n* https://twitter.com/SBootstrap\n\nStart Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).\n\n* http://davidmiller.io\n* https://twitter.com/davidmillerskt\n* https://github.com/davidtmiller\n\nStart Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).\n\n## Copyright and License\n\nCopyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
+  },
+  "title": "Clean Blog",
+  "version": "5.0.1"
+}
