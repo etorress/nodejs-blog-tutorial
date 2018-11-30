@@ -66,7 +66,7 @@ app.use('/posts/store', storePost)
 
 app.get("/", homePageController);
 app.get("/post/:id", getPostController);
-app.get("/posts/new", auth, createPostController);
+app.get("/posts/new", createPostController);
 app.post("/posts/store", auth, storePost, storePostController);
 app.get("/auth/login", redirectIfAuthenticated, loginController);
 app.post("/users/login", redirectIfAuthenticated, loginUserController);
