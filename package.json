@@ -23,6 +23,7 @@
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
     "connect": "^3.6.6",
+    "connect-flash": "^0.1.1",
     "express": "^4.16.4",
     "express-edge": "^1.0.0",
     "express-fileupload": "^1.0.0",
