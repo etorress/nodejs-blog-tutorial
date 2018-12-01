@@ -9,8 +9,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <span class="subheading">Write what u think | Read somethin' else</span>
           </div>
         </div>
       </div>
@@ -31,7 +30,7 @@
           </a>
           <p class="post-meta">Posted by
             <a href="#">{{ post.username}} </a>
-            on {{ post.createdAt.toDateString(); }}
+            on {{ post.createdAt.toLocaleDateString() }}
           </p>
         </div>
         <hr>
