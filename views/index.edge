@@ -1,6 +1,7 @@
 @layout('layouts.app')
  
 @section('content')
+<title>Scribo</title>
  
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -32,6 +33,7 @@
             <a href="#">{{ post.username}} </a>
             on {{ post.createdAt.toLocaleDateString() }}
           </p>
+          {{post.description}}
         </div>
         <hr>
         @endeach

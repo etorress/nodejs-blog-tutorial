@@ -7,6 +7,8 @@ module.exports = (req, res) => {
         image
     } = req.files
 
+    
+
     image.mv(path.resolve(__dirname, '..', 'public/posts', image.name), (error) => {
         Post.create({
             ...req.body,
@@ -15,4 +17,7 @@ module.exports = (req, res) => {
             res.redirect("/");
         });
     })
+    
+
+    
 }

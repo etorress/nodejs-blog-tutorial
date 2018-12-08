@@ -1,6 +1,7 @@
 @layout('layouts.app')
 
 @section('content')
+<title>{{post.title}} - Scribo</title>
 
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('{{ post.image }}')">
@@ -10,17 +11,22 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="post-heading">
+                    
+                        
+                        <div class="post-heading">
                     <h1> {{post.title}} </h1>
                     <span class="meta">Posted by 
                         <a href="#">{{ post.username}}</a>
                         on {{ post.createdAt.toLocaleDateString() }}
                     </span>
+                    
+                   
                 </div>
             </div>
         </div>
     </div>
 </header>
+
 
 <!-- Post Content -->
 
@@ -32,6 +38,30 @@
             </div>
         </div>
     </div>
+    <form action="/post/delete/{{post._id}}" method="POST" enctype="multipart/form-data">
+    <div class="form-group my-4 text-center">
+        
+          
+            @if(auth)
+        <button class="btn btn-warning" >Delete Post </button>
+        
+        
+    
+    
+      </div>
+    </form>
+    
+        
+        
+        <div class="form-group my-4 text-center">
+                <h3><a class = "btn btn-primary" href="/post/modify/{{post._id}}" >Modify Post</a></h3>
+        </div>
+
+    @endif
+
+  
+
+      
 </article>
 
 @endsection
